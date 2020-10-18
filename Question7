@@ -1,0 +1,27 @@
+# Assignmet_8-
+package assignmet_8.sub;
+
+public class Question7 {
+
+	public static void main(String args[]){
+		isPalindrome(1001);
+	
+	}
+	public static boolean isPalindrome(int number) {
+		int palindrome = number; 
+        int reverse = 0;
+
+        while (palindrome != 0) {
+            int remainder = palindrome % 10;
+            reverse = reverse * 10 + remainder;
+            palindrome = palindrome / 10;
+        }
+        if (number == reverse) {
+        	System.out.println(true);
+            return true;
+        }
+        System.out.println(false);
+        return false;
+	}
+
+}
