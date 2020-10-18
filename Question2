@@ -1,0 +1,20 @@
+# Assignmet_8-
+package assignmet_8.sub;
+
+import java.util.Scanner;
+
+public class Question2 {
+
+	public static void main(String[] args) {
+		cube();}
+
+	public static void cube() {
+		System.out.println("number: ");
+		Scanner scan=new Scanner(System.in);
+		int number=scan.nextInt();
+		System.out.println(number*number*number);
+		
+
+	}
+
+}
