@@ -1,0 +1,19 @@
+# Assignmet_8-
+package assignmet_8.sub;
+
+public class Question3 {
+
+	public static void main(String[] args) {
+		hello();
+		world();
+	}
+
+	private static void hello() {
+		System.out.print("hello ");
+	}
+
+	private static void world() {
+		System.out.print("world!");
+	}
+
+}
