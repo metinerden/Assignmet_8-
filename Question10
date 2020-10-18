@@ -1,0 +1,19 @@
+# Assignmet_8-
+package assignmet_8.sub;
+
+public class Question10 {
+
+	public static void main(String[] args) {
+		isEven(0);
+	}
+
+	public static void isEven(int x) {
+		if(x%2==0 && x!=0) {
+			System.out.println(true);
+		}else {
+			System.out.println(false);
+		}
+		
+	}
+
+}
